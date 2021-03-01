@@ -1,8 +1,9 @@
 <!-- ======= Contact Section ======= -->
   <section id="contact" class="contact section-bg">
     <div class="container" data-aos="fade-up">
-      <div class="section-header">
-        <h3 class="section-title">Contact Us</h3>
+      <div class="section-title">
+                <h2>Contact</h2>
+                <h3>Get In Touch With Us</h3>
       </div>
 
       <div class="row">
@@ -60,11 +61,6 @@
             <div class="form-group">
               <textarea class="form-control" name="message" rows="5" name="entry.1465059479" required></textarea>
               <div class="validate"></div>
-            </div>
-            <div class="mb-3">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
             </div>
             <div class="text-center"><button type="submit">Send Message</button></div>
           </form>

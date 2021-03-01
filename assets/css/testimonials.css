@@ -10,19 +10,8 @@
   font-family: "Lora";
 }
 
-.testimonials .section-header .section-title {
-  font-size: 32px;
-  color: #111;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 700;
-  margin-bottom: 5px;
+.testimonials .section-title{
   padding-bottom: 20px;
-}
-
-
-.testimonials .section-header {
-  margin-bottom: 0;
 }
 
 .testimonials .testimonial-item {
@@ -32,7 +21,7 @@
 
 .testimonials .testimonial-item .testimonial-img {
   width: 130px;
-  border-radius: 50%;
+  border-radius: 10%;
   border: 6px solid rgba(255, 255, 255, 0.15);
   margin: 0 auto;
 }
@@ -106,135 +95,75 @@
   }
 }
 
-/*--------------------------------------------------------------
-# Portfolio
---------------------------------------------------------------*/
-.portfolio{
-  background: #fff;
-  padding: 60px 0 40px 0;
+/*-- Services section --*/
+.service .feature-grid {
+  margin-top: 30px; }
+
+.service .feature-body {
+  transition: 0.3s ease-in;
+  border: 1px solid #e6e6e6;
+  background: #fafafa;
+  border-radius: 5px;
+  height: 100%;
+  padding: 15px;
 }
 
-.portfolio .portfolio-item {
-  margin-bottom: 30px;
-}
+.service .feature-body:hover {
+  background-size: cover;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: bottom right, left, right; }
 
-.portfolio .section-header .section-title {
-  font-size: 32px;
-  color: #111;
-  text-transform: uppercase;
-  text-align: center;
+.service .service1:hover {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.67)), url("../media/images/services-trash-for-trade/services-trash-for-trade-shredded-plastic.jpg"); }
+
+.service .service2:hover {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.67)), url("../media/images/services-trash-for-trade/services-trash-for-trade-plastic-pellets.jpg"); }
+
+.service .service3:hover {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.67)), url("../media/images/services-trash-for-trade/services-trash-for-trade-machines.jpg"); }
+
+.service .service4:hover {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.67)), url("../media/images/services-trash-for-trade/services-trash-for-trade-construction-materials.jpg"); }
+
+.service .service5:hover {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.67)), url("../media/images/services-trash-for-trade/services-trash-for-trade-furnitures.jpg"); }
+
+.service :hover .service6:hover {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.67)), url("../media/images/services-trash-for-trade/services-trash-for-trade-custom-designs.jpg"); }
+
+.service .feature-body:hover h3.feature-titel {
+  color: #fff;
+  transition: 0.3s ease; }
+
+.service .feature-body:hover p.feature-text {
+  color: #fff;
+  transition: 0.3s ease; }
+
+.service .feature-body:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+  color: #fff; }
+
+.service h3.feature-titel {
+  transition: 0.3s ease;
   font-weight: 700;
-  margin-bottom: 5px;
-  padding-bottom: 20px;
-}
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  color: #111;
+ }
 
-
-.portfolio .portfolio-wrap {
-  transition: 0.3s;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-  background: rgba(255, 255, 255, 0.6);
-}
-
-.portfolio .portfolio-wrap::before {
-  content: "";
-  background: rgba(255, 255, 255, 0.8);
-  position: absolute;
-  left: 30px;
-  right: 30px;
-  top: 30px;
-  bottom: 30px;
-  transition: all ease-in-out 0.3s;
-  z-index: 2;
-  opacity: 0;
-}
-
-.portfolio .portfolio-wrap .portfolio-info {
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  z-index: 3;
-  transition: all ease-in-out 0.3s;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.portfolio .portfolio-wrap .portfolio-info::before {
-  display: block;
-  content: "";
-  width: 48px;
-  height: 48px;
-  position: absolute;
-  top: 35px;
-  left: 35px;
-  border-top: 3px solid #5c8b2a;
-  border-left: 3px solid #5c8b2a;
-  transition: all 0.5s ease 0s;
-  z-index: 9994;
-}
-
-.portfolio .portfolio-wrap .portfolio-info::after {
-  display: block;
-  content: "";
-  width: 48px;
-  height: 48px;
-  position: absolute;
-  bottom: 35px;
-  right: 35px;
-  border-bottom: 3px solid #5c8b2a;
-  border-right: 3px solid #5c8b2a;
-  transition: all 0.5s ease 0s;
-  z-index: 9994;
-}
-
-.portfolio .portfolio-wrap .portfolio-info p {
+.service p.feature-text {
+  transition: 0.3s ease;
   font-size: 14px;
   line-height: 24px;
   color: #666666;
-  padding: 18px;
-  margin: 0;
-}
+ }
 
-.portfolio .portfolio-wrap:hover::before {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 1;
-}
+@media (max-width: 1280px) {
+  .service .feature-info {
+    padding: 0 10px; } }
 
-.portfolio .portfolio-wrap:hover .portfolio-info {
-  opacity: 1;
-}
-
-.portfolio .portfolio-wrap:hover .portfolio-info::before {
-  top: 15px;
-  left: 15px;
-}
-
-.portfolio .portfolio-wrap:hover .portfolio-info::after {
-  bottom: 15px;
-  right: 15px;
-}
-
-.portfolio .member-info {
-  padding: 15px 15px;
-  text-align: center;
-  background: #fff;
-  box-shadow: 0px 2px 15px rgba(92, 139, 42, 0.08);
-}
-
-.portfolio .member-info h4 {
-  font-weight: 700;
-  margin-bottom: 5px;
-  font-size: 18px;
-  text-transform: uppercase;
-  color: #111;
-}
+@media (max-width: 1024px) {
+  .service .feature-info {
+    padding: 0 0px; } }

@@ -1,9 +1,9 @@
 <!-- ======= Awards Section ======= -->
 <div id="awards" class="awards section-bg">
   <div class="container" data-aos="fade-up">
-    <div class="section-header">
-      <h3 class="section-title">Awards</h3>
-<br><br>
+    <div class="section-title">
+              <h2>Awards</h2>
+              <h3>Our Achievements</h3>
     </div>
 
     <div class="row">

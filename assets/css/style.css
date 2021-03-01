@@ -528,22 +528,41 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
-# Sections
+# Sections General
 --------------------------------------------------------------*/
 section {
-  overflow: hidden;
+  padding: 0 0;
+  font-family: "Lora";
 }
 
-/* Sections Header
---------------------------------*/
-.section-header .section-title {
-  font-size: 32px;
-  color: #111;
-  text-transform: uppercase;
+.section-bg {
+  background-color: #fafafb;
+}
+
+.section-title {
+  padding-top: 0;
   text-align: center;
+  padding-bottom: 60px;
+}
+
+.section-title h2 {
+  font-size: 13px;
+  letter-spacing: 1px;
   font-weight: 700;
-  margin-bottom: 5px;
-  padding-bottom: 40px;
+  padding: 8px 20px;
+  margin: 0;
+  background: #f5f9fc;
+  color: #5b8c2a;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+
+.section-title h3 {
+  margin: 15px 0 0 0;
+  font-size: 30px;
+  font-weight: 700;
+  color: #555;
 }
 
 /*blog
@@ -554,15 +573,9 @@ section {
   padding: 60px 0 40px 0;
 }
 
-#blog .section-headerx .section-titlex {
-  font-size: 32px;
-  color: #111;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 700;
-  padding-bottom: 30px;
+#blog .container{
+  border: 1px solid #000;
 }
-
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -587,55 +600,3 @@ section {
 #footer .credits a{
   color: #fff;
 }
-
-/* Call To Action Section
---------------------------------*/
-/*#call-to-action {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/call-to-action-bg.jpg) fixed center center;
-  background-size: cover;
-  padding: 80px 0;
-}
-
-@media (max-width: 1024px) {
-  #call-to-action {
-    background-attachment: scroll;
-  }
-}
-
-#call-to-action .cta-title {
-  color: #fff;
-  font-size: 28px;
-  font-weight: 700;
-}
-
-#call-to-action .cta-text {
-  color: #fff;
-}
-
-@media (min-width: 769px) {
-  #call-to-action .cta-btn-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-  }
-}
-
-#call-to-action .cta-btn {
-  font-family: "Lora", sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 30px;
-  border-radius: 50px;
-  transition: 0.5s;
-  margin: 10px;
-  border: 2px solid #fff;
-  color: #fff;
-}
-
-#call-to-action .cta-btn:hover {
-  background: #5b8c2a;
-  border: 2px solid #5b8c2a;
-}*/

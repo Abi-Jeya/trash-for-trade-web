@@ -1,9 +1,9 @@
 <!-- ======= Funding Partners Section ======= -->
 <div id="partners" class="partners section-bg">
   <div class="container" data-aos="fade-up">
-    <div class="section-header">
-      <h3 class="section-title">Funding Partners</h3>
-<br><br>
+    <div class="section-title">
+              <h2>Partners</h2>
+              <h3>Funding Partners</h3>
     </div>
 
     <div class="row">
@@ -31,9 +31,8 @@
 <!-- ======= Project Partners Section ======= -->
   <div id="project-partners" class="partners section-bg">
     <div class="container" data-aos="fade-up">
-      <div class="section-header">
-        <h3 class="section-title">Project Partners</h3>
-<br><br>
+      <div class="section-title">
+                <h3>Project Partners</h3>
       </div>
 
       <div class="row">
@@ -75,10 +74,9 @@
   <!-- ======= Network Partners Section ======= -->
   <div id="network-partners" class="partners section-bg">
     <div class="container" data-aos="fade-up">
-      <div class="section-header">
-        <h3 class="section-title">Network Partners</h3>
-<br><br>
-      </div>
+      <div class="section-title">
+                  <h3>Network Partners</h3>
+     </div>
 
       <div class="row">
 
